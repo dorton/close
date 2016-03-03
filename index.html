@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>The Iron Yard </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<link rel="stylesheet" href="css/theme/tiy.css" id="theme">
+
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+
+
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+
+		<div class="header"></div>
+		<div class="arrow-down"></div>
+
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+					<!-- Slides -->
+					<section data-markdown data-separator="\n---\n">
+						<script type="text/template">
+							##Close Without Selling
+							###*The Iron Yard Way™*
+							<hr>
+							All-Hands Campus Ops Call<br>
+							March 4, 2016
+
+							---
+
+							##Outline
+							- How is TIY different?
+							- ABT
+							- First Contact
+								- Set expectations
+								- Set expectations
+								- Set expectations
+							- "What is your goal?"
+							-
+
+							---
+
+							###*How is The Iron Yard Different?*
+							- We live by the motto "Do what's right for the student."
+							- If we have to sell you on the fact that you want to code, it's not going to end well.
+
+							---
+
+							###*ABT: Always Be Transparent*
+							- A: Always
+							- B: Be
+							- T: Transparent
+
+							---
+
+							###*Why?*
+							Not setting the proper expectations will always end badly.
+							<br>
+							<br>
+							> "The source of all frustration is unmet expectations" - TheDoddFather™
+
+							---
+
+							###*What is your goal?*
+							- This is such a great way to get prospective students talking about why they are interested in The Iron Yard.
+
+							---
+
+
+							###*It's How Long?*
+							####*Wanna Learn Mandarin?*
+							The easiest way is to move to China.
+							> When you enroll in a class at The Iron Yard, you are essential moving to a country that speaks Code.
+
+							---
+
+							###*How Much??*
+
+							- Again, what is the student's goal?  Why did they reach out in the first place?
+							- There are three viable options to learn how to be a web developer.
+								1. Learn on your own.
+								2. Get a CS degree.
+								3. Enroll in a coding bootcamp.
+
+							---
+
+							###*Why The Iron Yard?*
+
+							- What an excellent opportunity to talk about our Advisory Board. This is something that truly differentiates us from the competition.
+
+
+
+
+
+						</script>
+					</section>
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: true,
+				center: true,
+				autoSlide: 0,
+
+
+				slideNumber: false,
+
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
